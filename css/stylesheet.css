@@ -166,10 +166,10 @@ body {
 
 @media (max-width: 600px) {
     .main-intro {
-        padding: 10px 30px 30px 30px;
+        padding: 10px 10px 10px 10px;
         width: 60vw;
         max-width: 500px;
-        min-width: 150px;
+        min-width: 85vw;
         border: solid 5px #247bcc3d;
     }
 
