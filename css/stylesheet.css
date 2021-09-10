@@ -470,3 +470,24 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+/* //// CONTACT //// */
+
+#new-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.contactbtn {
+    min-width: 100px;
+    max-width: 300px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
