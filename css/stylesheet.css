@@ -166,9 +166,13 @@ body {
 
 
 @media (max-width: 600px) {
+
+    .hero {
+        padding: 60px 0;
+    }
+
     .main-intro {
         padding: 10px 10px 10px 10px;
-        width: 60vw;
         max-width: 500px;
         min-width: 89vw;
         border: solid 5px #247bcc3d;
@@ -194,6 +198,46 @@ body {
 
     .main-intro h3 {
         font-size: 1.1em;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .main-intro {
+        padding: 10px 10px 10px 10px;
+        min-width: 89vw;
+        border: none;
+    }
+
+    #profilepic {
+        display: none;
+    
+    }
+    .image {
+        margin-right: 0;
+    
+    }
+
+    .main-intro-title {
+        font-size: 2.5em;
+        margin-bottom: .4em;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+        letter-spacing: 1.7px;
+        padding-right: 0px;
+        padding: 0px 5px 10px;
+        text-align: center;
+    }
+
+    .main-intro h3 {
+        font-size: 1.4em;
+        padding: 0px 8px 18px;
         font-weight: 400;
     }
 
